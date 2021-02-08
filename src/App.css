@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+}
+h1, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+.react-responsive-modal-closeButton {
+  background-color: #F0F0F0!important;
+  width: 20px;
+  height: 20px;
+  top: -10px!important;
+  right: -10px!important;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.react-responsive-modal-closeButton svg {
+  width: 20px;
+  height: 20px;
+}
+.react-responsive-modal-overlay {
+  background: rgba(0, 0, 0, 0.45)!important;
+}
+.react-swipe-container {
+  width: 285px;
+}
+/*@media(max-width: 769px) {*/
+/*  .react-swipe-container {*/
+/*    overflow: initial!important;*/
+/*  }*/
+/*}*/
